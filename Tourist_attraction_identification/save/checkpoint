@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:/deep_learning/Tourist_attraction_identification/save\\model.ckpt-9999"
+all_model_checkpoint_paths: "D:/deep_learning/Tourist_attraction_identification/save\\model.ckpt-9999"
