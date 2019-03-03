@@ -7,6 +7,4 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-本机环境：Win10+ pycharm+ tensorflow-gpu 1.3.0
+本机环境：Win10 + python3.6 + pycharm + tensorflow-gpu 1.3.0
