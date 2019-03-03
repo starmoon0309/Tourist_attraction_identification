@@ -7,4 +7,6 @@
 <br>
 <br>
 <br>
-本机环境：Win10 + python3.6 + pycharm + tensorflow-gpu 1.3.0
+本机环境：Win10 + python3.6 + pycharm + tensorflow-gpu 1.3.0 <br>
+下面简单介绍一下整个流程：<br>
+    首先
