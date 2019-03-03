@@ -13,4 +13,5 @@ Win10 + python3.6 + pycharm + tensorflow-gpu 1.3.0 <br>
 <br>
 下面简单介绍一下整个流程：<br>
 - 首先，从网站上批量下载景点的图片。我选用4个景点，分别是泰山，大雁塔，兵马俑，颐和园。一共下载了共计804张图片(有点少) <br>
-- 调用create_record.py进行图片处理，这里主要是将图片转换为64×64像素的图片
+- 调用create_record.py进行图片处理，这里主要是将图片转换为64×64像素的图片。在这一步中我出现了如下的问题()
+1.运行时报错 NewRandomAccessFile failed to Create/Open
