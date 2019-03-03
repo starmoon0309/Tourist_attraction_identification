@@ -19,4 +19,8 @@ Win10 + python3.6 + pycharm + tensorflow-gpu 1.3.0 <br>
 2.运行时报错 InvalidArgumentError (see above for traceback): Input to reshape is a tensor with xx values, but the requested shape has xx<br>
 解决方法：在create_record.py中的img = Image.open(img_path)后加上了“.convert("RGB")”,强制都转成RGB格式，就好了(困扰了我很久)<br>
 3.特别注意，文件的路径上不要有中文名！！！忘了报的错是什么了<br>
-- 运行train.py，需要注意的是train_dir和logs_train_dir需要改成本机的目录。大约训练8~10分钟左右，可以在/save目录下得到训练好的模型
+- 运行train.py，需要注意的是train_dir和logs_train_dir需要改成本机的目录。大约训练8~10分钟左右，可以在/save目录下得到训练好的模型<br>
+-调用test.py，进行测试。用于测试的是在百度图片上随便找的一张，命名为1.jpg，同样，文件里的相关目录也需要更改。需要注意的是，当程序弹出图片后，需关掉，才继续向下运行。。。<br>
+- 运行gui.py文件，弹出对话框，选择待测试的图片即可。 <br>
+（这里有一个小小的问题，在程序运行出结果后仍会报错，有知道原因的可以在评论里告知一下~）
+
