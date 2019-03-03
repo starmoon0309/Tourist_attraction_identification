@@ -2,7 +2,7 @@
 本项目在tensorflow下使用CNN解决景点识别问题，作者只是一个刚刚入门深度学习的新手，本文主要用来记录自己的学习历程，很多问题可能也无法回答，见谅。
 本项目大量参考了 https://github.com/bighansome/flower_world 的代码，并对我在此项目中出现的问题进行说明，其中也参考了大量CSDN博主的方法
 ，还望各位大神不吝赐教<br>
-一些运行时的截图可以在https://blog.csdn.net/star_moon0309/article/details/88094682 中看到
+一些运行时的截图可以在https://blog.csdn.net/star_moon0309/article/details/88094682 中看到<br>
 （非商业用途，仅供学习，若有侵权，请告知我，我将立即删除）<br>
 <br>
 <br>
